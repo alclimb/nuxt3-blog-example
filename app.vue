@@ -1,5 +1,12 @@
+<script lang="ts" setup>
+// nuxt dev は OK。
+// nuxt build でエラーになる…
+const contents = import.meta.glob!("./contents/**/*.md");
+console.log(`contents >> `, contents);
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    test
   </div>
 </template>
